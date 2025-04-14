@@ -28,13 +28,14 @@ function deleteUser() {
 deleteUser(adashi)
 
 
+function updateUser() {
+    
+}
 
-// function updateUser(amount) {
-//     if (amount === 0) {
-//         console.log("$100 have been added to your account", amount)
-//     } else {
-//         console.log("we will added it for you later", amount)
-//     }
-// }
-// updateUser()
+function withdrawAmount(amount) {
+    let Amountwithdraw = amount;
 
+    console.log("amount withdrwan from the person", Amountwithdraw)
+}
+
+withdrawAmount()
