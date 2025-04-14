@@ -1,18 +1,4 @@
 // 1 checking the pallingstring of the length of some words.
-// let items = ["bob", "pop", "krop"];
-
-// function checkPallinString(str) {
-//     let palindromestring = str.toLowerCase();
-//     return palindromestring === palindromestring.split('').reverse().join('');
-// }
-
-// items.forEach(item => {
-//     if (checkPallinString(item)) {
-//         console.log(`${item} is a palindrome.`);
-//     } else {
-//         console.log(`${item} is not a palindrome.`);
-//     }
-// });
 
 function isPalindrome(str) {
     let left = 0;
