@@ -1,7 +1,7 @@
 let adashi = [];
 
 
-function addUsers(name,age,gender,amount) {
+function addUsers(name,amount) {
     let newUser = {
         name: name,
         age: age,
@@ -12,12 +12,12 @@ function addUsers(name,age,gender,amount) {
     console.log("users added to the adashi business", adashi);
 }
 
-addUsers("promise", 32, 'male', '$0')
-addUsers("phebe", 22, 'female', '$0')
-addUsers("timothy", 52, 'male', '$0')
-addUsers("grace", 42, 'female', '$0')
-addUsers("pius", 72, 'male', '$0')
-addUsers("philip", 12, 'male', '$0')
+addUsers("promise", '$0')
+addUsers("phebe",  '$0')
+addUsers("timothy", '$0')
+addUsers("grace",  '$0')
+addUsers("pius", '$0')
+addUsers("philip", '$0')
 
 function deleteUser() {
     let removedUser = adashi.splice(1, 1);
